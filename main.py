@@ -48,13 +48,14 @@ def showTransactions():
     if (noIncome == 0) and (noOutcome == 0):
         print("Usted aún no ha realizado ninguna transacción")
     else:
-        print("**Reporte de transacciones**")
+        print("**Reporte de transacciones** \n")
         showIngresos()
+        print("")
         showEgresos()
     
 
 while True:
-    print("Menu: \n")
+    print("\n Menu: \n")
     print("(0) Salir")
     print("(1) Mostrar el saldo de la cuenta")
     print("(2) Agregar un ingreso")
